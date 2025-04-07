@@ -47,7 +47,7 @@ interface RequestData {
 
 // Function to call the Yushan API
 async function yushantwo(requestData: RequestData, prodId: string): Promise<string> {
-  const url = "http://122.152.195.249:21000/credit-gw/service";
+  const url = "***";
   const reqTime = Date.now();
   const requestSN = Array.from({ length: 32 }, () => "ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678"[Math.floor(Math.random() * 58)]).join("");
 
