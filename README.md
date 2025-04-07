@@ -15,8 +15,7 @@
 ## 环境
 
 ### 获取Usense UserID和Key
-请联系羽山数据获取用户账号与密钥
-[羽山数据](https://www.yushanshuju.com/)
+请联系[羽山数据](https://www.yushanshuju.com/)获取用户账号与密钥
 
 ### 安装node.js
 当在终端中能成功获取版本号即安装成功，mac须用brew安装
