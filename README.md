@@ -3,7 +3,7 @@
 
 ## 工具列表
 ## 🤝 官方集成
-- <img height="12" width="12" src="https://www.21st.dev/favicon.ico" alt="21st.dev Logo" /> *[企业二要素核验](https://www.yushanshuju.com/ords/datatech/api/apidoc/COM030)** - Call the full data of industrial and commercial enterprises, based on the authorization of the four elements of the enterprise ("full name of the enterprise, name of the legal representative"), and perform rapid verification
+- **[企业二要素核验](https://www.yushanshuju.com/ords/datatech/api/apidoc/COM030)** - Call the full data of industrial and commercial enterprises, based on the authorization of the four elements of the enterprise ("full name of the enterprise, name of the legal representative"), and perform rapid verification
 Is the information consistent.
 
 ## 环境
