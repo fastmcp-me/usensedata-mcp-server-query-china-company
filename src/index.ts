@@ -85,33 +85,6 @@ async function yushantwo(requestData: RequestData, prodId: string): Promise<stri
   }
 }
 
-// Register tools
-
-// server.tool(
-//   "get_two_card_no",
-//   "Perform two-factor identity verification",
-//   {
-//     name: z.string().describe("Full name"),
-//     cardNo: z.string().describe("ID number"),
-//   },
-//   async ({ name, cardNo }) => {
-//     const requestData = {
-//       name: name,
-//       cardNo: cardNo,
-//     };
-//     const prodId = "IDV031";
-//     const data = await yushantwo(requestData, prodId);
-//     return {
-//       content: [
-//         {
-//           type: "text",
-//           text: data,
-//         },
-//       ],
-//     };
-//   }
-// );
-
 server.tool(
   "verify_company_name_and_president",
   "Verification of the two elements of the legal representative's name and company full name. Return 0 to indicate consistency, and return 1 to indicate inconsistency. Please use the fuzzy query tool to obtain the company full name before calling this tool.",
