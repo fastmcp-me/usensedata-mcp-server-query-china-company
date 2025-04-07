@@ -2,7 +2,9 @@
 羽山数据API服务现已全面兼容MCP协议，打造数据服务MCP Server。usensedata-mcp-server-query-china-company项目为企业类数据查询服务server，用户可通过简单配置快速通过LLM使用羽山数据企业类数据服务。依赖MCP Typescript SDK，可在支持MCP协议的智能体助手中快速接入。
 
 ## 工具列表
-待定
+## 🤝 官方集成
+- <img height="12" width="12" src="https://www.21st.dev/favicon.ico" alt="21st.dev Logo" /> **[21st.dev Magic](https://www.yushanshuju.com/ords/datatech/api/apidoc/COM030)** - Call the full data of industrial and commercial enterprises, based on the authorization of the four elements of the enterprise ("full name of the enterprise, name of the legal representative"), and perform rapid verification
+Is the information consistent.
 
 ## 环境
 
