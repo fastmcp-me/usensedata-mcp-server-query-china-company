@@ -3,8 +3,8 @@
 
 ## 工具列表
 ## 🤝 官方集成
-- **[企业二要素核验](https://www.yushanshuju.com/ords/datatech/api/apidoc/COM030)** - Call the full data of industrial and commercial enterprises, based on the authorization of the four elements of the enterprise ("full name of the enterprise, name of the legal representative"), and perform rapid verification
-Is the information consistent.
+- **[企业二要素核验](https://www.yushanshuju.com/ords/datatech/api/apidoc/COM030)** - 调用工商企业全量数据，基于企业四要素授权（"企业全称、法人姓名"），验证信息是否一致。
+- **[企业二要素核验](https://www.yushanshuju.com/ords/datatech/api/apidoc/PBB020)** - 依托全国工商企业全量数据，根据"企业名称的关键字"，通过大数据挖掘，筛选出包括该字段的企业列表。
 
 ## 环境
 
