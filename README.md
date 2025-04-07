@@ -76,3 +76,27 @@ windows
   }
 }
 ```
+#### 效果
+实际用户请求：***“帮我查一下羽山数据的对外投资情况”***
+
+![image](./image/yl1.jpg)
+
+## 说明
+1.获取实际请求中的需要查询的企业名称 “羽山数据”
+
+2.调用企业模糊查询 [fuzzy_query_of_enterprises] 获取到跟 “羽山数据” 相关的企业列表信息，并从中取得到公司全名.
+
+3.然后调用公司对外投资查询 [query_company_overseas_investments] 获取公司对应的投资信息.
+
+4.再调用企业基本信息查询 [query_basic_enterprise_information] 获取公司的基本信息内容.
+
+5.最后整理以上所以信息，进行输出返回最终展示结果信息.
+
+#### Agent结果
+
+![image](./image/yl2.jpg)
+![image](./image/yl3.jpg)
+
+#### MCP tools加载
+
+![image](./image/yl4.jpg)
